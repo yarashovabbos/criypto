@@ -57,13 +57,13 @@ span{
 }
 
 .crypto-table-wrapper {
-    max-width: 1300px;
+    max-width: 1200px;
     /* overflow-x: hidden; Prevent horizontal scrolling */
 }
 
 .crypto-table-container {
     width: 100%;
-    max-width: 100%;
+    max-width: 1300px;
     overflow-x: auto; /* Ensure the table is responsive */
     padding: 20px; /* Adjust padding as necessary */
     box-sizing: border-box; /* Include padding in width calculation */
