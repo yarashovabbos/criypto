@@ -97,6 +97,7 @@ span{
    
 }
 .swiper-container {
+  width: 100%;
     height: 400px;
     background-image: url('../../public/Banner.jpeg'); /* Update the path */
     background-size: cover;
@@ -105,16 +106,24 @@ span{
   .datad {
     width: 300px;
     padding: 20px;
- 
+ text-align: center;
     border-radius: 10px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     text-align: center; 
   }
   .banner-container {
+    width: 1380px;
+  margin: 0 auto;
     text-align: center; 
   }
-  
+  .swaper1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .header-container {
+    text-align: center;
   height: 150px;
     margin-bottom: 20px;
   }
