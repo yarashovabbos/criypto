@@ -1,7 +1,7 @@
 .flop{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .loop{
     padding: 20px;
@@ -92,12 +92,12 @@ span{
 
 /*     Banner*/
 .swep{
-    max-width: 1450px;
+    max-width: 1350px;
   
    
 }
 .swiper-container {
-  width: 100%;
+  width: 1350px;
     height: 400px;
     background-image: url('../../public/Banner.jpeg'); /* Update the path */
     background-size: cover;
@@ -112,7 +112,7 @@ span{
     text-align: center; 
   }
   .banner-container {
-    width: 1500px;
+    width: 1350px;
   margin: 0 auto;
     text-align: center; 
   }
