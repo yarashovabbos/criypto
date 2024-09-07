@@ -70,7 +70,7 @@ span{
 }
 
 .crypto-table {
-    width: 1400px;
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -112,7 +112,7 @@ span{
     text-align: center; 
   }
   .banner-container {
-    width: 1380px;
+    width: 1500px;
   margin: 0 auto;
     text-align: center; 
   }
