@@ -1,0 +1,174 @@
+.flop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loop{
+    padding: 20px;
+}
+span{
+    font-size: 20px;
+    color: #87CEEB;
+
+}
+.btn__of {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.btn__of.active {
+    filter: brightness(1.2);
+}
+
+.btn__of.active img {
+    filter: brightness(1.5);
+}
+
+.th{
+  padding: 20px;
+}
+    
+
+.h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+.btn__flop{
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+.watch{
+    margin-left: 5px;
+    background-color: #87CEEB;
+    
+}
+.watch:hover{
+    margin-left: 5px;
+    background-color: #92bbcb;
+    transition: 0.8s;
+    
+}
+
+.crypto-table-wrapper {
+    max-width: 100%;
+    /* overflow-x: hidden; Prevent horizontal scrolling */
+}
+
+.crypto-table-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto; /* Ensure the table is responsive */
+    padding: 20px; /* Adjust padding as necessary */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crypto-card {
+    padding: 10px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 1600px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+/*     Banner*/
+.swep{
+    max-width: 1750px;
+  
+   
+}
+.swiper-container {
+    height: 400px;
+    background-image: url('../../public/Banner.jpeg'); /* Update the path */
+    background-size: cover;
+    background-position: center;
+  }
+  .datad {
+    width: 300px;
+    padding: 20px;
+ 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  .banner-container {
+    text-align: center; 
+  }
+  
+  .header-container {
+  height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .swaper1 .datad {
+    text-align: center;
+  }
+  
+  .price_symbol {
+    margin-top: 10px;
+  }
+  
+  .curent {
+    margin-top: 5px;
+  }
+ .text{
+    color: #87CEEB;
+
+ }
+  
+  h1, p {
+   
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+/* PAGINETION */
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination buttons */
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #494444;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pagination .active {
+    background-color: #007bff; /* Example blue color */
+    color: #fff;
+}
