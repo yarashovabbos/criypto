@@ -27,7 +27,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="banner-container"> {/* Added centering class */}
+    <div className="banner-container"> 
     <div className="swiper-container "><div className="header-container">
         <h1 className="">CRYPTOFOLIO WATCH LIST</h1>
         <p>Get all the Info regarding your favorite Crypto Currency</p>

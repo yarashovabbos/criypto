@@ -1,7 +1,7 @@
 /* selector.css or your styles file */
 .crypto-details-container {
     padding: 20px;
-   
+   background-color: black;
 }
 
 .crypto-details-header {
@@ -17,9 +17,7 @@
     cursor: pointer;
     margin-right: 15px;
 }
-.det{
-    background-color: black;
-}
+
 .crypto-image {
     border-radius: 50%;
     margin-right: 15px;
@@ -28,7 +26,7 @@
 .crypto-details-body {
     margin-top: 20px;
 }
-.ant-tabs{
+/* .ant-tabs{
     background-color: black;
     color: white;
-}
+} */
