@@ -57,7 +57,7 @@ span{
 }
 
 .crypto-table-wrapper {
-    max-width: 100%;
+    max-width: 1400px;
     /* overflow-x: hidden; Prevent horizontal scrolling */
 }
 
@@ -80,7 +80,7 @@ span{
 
 .search-input {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin-bottom: 20px;
     padding: 10px;
     box-sizing: border-box;
