@@ -57,7 +57,7 @@ span{
 }
 
 .crypto-table-wrapper {
-    max-width: 1400px;
+    max-width: 100%;
     /* overflow-x: hidden; Prevent horizontal scrolling */
 }
 
