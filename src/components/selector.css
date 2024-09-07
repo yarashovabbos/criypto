@@ -1,7 +1,7 @@
 .flop{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .loop{
     padding: 20px;
@@ -58,15 +58,15 @@ span{
 
 .crypto-table-wrapper {
     max-width: 100%;
-    /* overflow-x: hidden; Prevent horizontal scrolling */
+   
 }
 
 .crypto-table-container {
     width: 100%;
     max-width: 1500px;
-    overflow-x: auto; /* Ensure the table is responsive */
-    padding: 20px; /* Adjust padding as necessary */
-    box-sizing: border-box; /* Include padding in width calculation */
+    overflow-x: auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .crypto-table {
@@ -99,8 +99,7 @@ span{
 .swiper-container {
   width: 1350px;
     height: 400px;
-    background-image: url('../../public/Banner.jpeg'); /* Update the path */
-    background-size: cover;
+    background-image: url('../../public/Banner.jpeg'); 
     background-position: center;
   }
   .datad {
@@ -163,7 +162,7 @@ span{
 
 .pagination {
     display: flex;
-    justify-content: center; /* Center the pagination buttons */
+    justify-content: center; 
     margin-top: 20px;
 }
 
@@ -178,6 +177,6 @@ span{
 }
 
 .pagination .active {
-    background-color: #007bff; /* Example blue color */
+    background-color: #007bff; 
     color: #fff;
 }

@@ -17,7 +17,7 @@ const CryptoTable = () => {
     const [totalPages, setTotalPages] = useState(1);
     const [activeCryptoId, setActiveCryptoId] = useState(null);
     const { currency } = useContext(CurrencyContext);
-    const navigate = useNavigate(); // Use navigate for routing
+    const navigate = useNavigate(); 
 
     useEffect(() => {
         fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&order=market_cap_desc&per_page=250&page=1&sparkline=false`)
@@ -48,7 +48,7 @@ const CryptoTable = () => {
     };
 
     const handleClick = (id) => {
-        navigate(`/crypto/${id}`); // Navigate to details page
+        navigate(`/crypto/${id}`); 
     };
 
     const handlePageChange = (newPage) => {

@@ -103,13 +103,13 @@ const CryptoDetails = () => {
                     </Row>
                     <Tabs defaultActiveKey="1" type="card">
                         <TabPane tab="Overview" key="1">
-                            {/* Add Overview Content Here */}
+                      
                         </TabPane>
                         <TabPane tab="Technical Analysis" key="2">
-                            {/* Add Technical Analysis Content Here */}
+                        
                         </TabPane>
                         <TabPane tab="Community" key="3">
-                            {/* Add Community Content Here */}
+                          
                         </TabPane>
                     </Tabs>
                 </div>

@@ -22,10 +22,6 @@ const HomePage = () => {
                         <CurrencySelector />
                         <Banner/>
                     </header>
-                    
- 
-               
-                    
                     <HeroCarousel />
                 </div>
             </WatchlistProvider>
